@@ -1,0 +1,45 @@
+.main-sec4{
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.bottom-border-l{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0;
+    padding-right: 1rem;    
+    border-bottom: .125rem solid #252324;
+}
+
+.bottom-border-r{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0;
+    padding-right: 0;    
+    border-bottom: .125rem solid #252324;
+}
+
+.bottom-border-wl{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0;
+    padding-right: 1rem;
+}
+
+.bottom-border-wr{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.margin-none{
+    margin: 0;
+}
+
+.margin-bottom{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 3rem;
+}

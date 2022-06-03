@@ -1,0 +1,30 @@
+.main-s3{
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.vector-position{
+    position: absolute;
+    right: -3.05rem;
+}
+
+.cajas{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.cajas .bkg-box img{
+    width: 3.75rem;
+    height: 3.75rem;    
+}
+
+.bkg-box{
+    display: flex;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: #1a1615;
+}

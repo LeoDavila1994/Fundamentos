@@ -1,0 +1,169 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+  background-color: #020403;
+  font-family: 'Rubik', sans-serif;
+  margin:0px;
+  height: 100vh;
+  width: 100%;    
+}
+
+.font-color1{
+  color: #FFFFFF;
+}
+
+.font-color2{
+  color: #ADADAD;
+}
+.title{
+  font-size: 45px;
+  font-weight: 600;
+}
+.subtitle{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.subsection{
+  font-size: 18px;    
+}
+
+.aline-txt{
+  text-align: center;
+}
+
+.main1{
+  width:100%;
+  height:100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.content-v1{
+  position: absolute;
+  height:350px;
+  width:100%;
+  z-index: 1;
+  overflow: hidden; 
+}
+
+.content-v1 img{
+  transform: rotate(25deg);
+  width: 100%;
+  height: 100%;
+}
+
+nav{
+  height: 5rem;
+  width:100%;
+  position: fixed;
+  z-index: 99;
+  background-color:#020403;    
+}
+
+#check{
+  display: none;
+}
+
+.checkbtn{
+  position: fixed;
+  left:calc(100% - 2.5rem);
+  line-height: 5rem;
+  margin-right: 2.5rem;
+  z-index: 4;
+}
+
+ul{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: #ADADAD;
+  top: 5rem;
+  left: -100%;
+  text-align: center;
+  transition: .2s;
+  padding: 0; 
+  margin: 0;
+  z-index: 98;     
+}
+
+nav ul li{
+  display: block;
+  margin: 3.125rem 0;
+}
+
+nav ul li a{
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+li a:hover{
+  background-color: #020403;
+  border-radius: 6px;
+  padding: .5rem 1rem;
+  transition: .2s;      
+}
+
+#check:checked ~ ul{
+  left: 0;
+}
+
+.content-perfil{
+  position: absolute;
+  left: 25%;
+  top: 5rem;
+  height: 230px;
+  width: 200px;
+  border-radius: 46%;
+  overflow: hidden;
+  z-index: 3;        
+}
+
+.content-perfil img{
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  height: 100vh;
+   
+}
+
+.img-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-posit{
+  margin: 0 1rem;
+}
+
+.content-v2{
+  position: absolute;
+  top: 60%;
+  left: -5rem;
+  height:50%;
+  width: 120%;
+  z-index: 2;  
+}  
+.content-v2 img{
+  height:100%;
+  width: 120%;  
+}
+
+.margin-top{
+  margin-top: 85%;
+}
+
+
+  
+  

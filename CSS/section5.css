@@ -1,0 +1,33 @@
+.vector-position2{
+    position: relative;    
+}
+
+.img-cont1{
+    display: flex;
+    margin: auto;
+    width: 21rem;
+    height: 21rem;
+    background-image: url("./Porta1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;    
+}
+
+.img-cont2{
+    display: flex;
+    margin: auto;
+    width: 21rem;
+    height: 21rem;
+    background-image: url("./Porta2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;    
+}
+
+.img-cont3{
+    display: flex;
+    margin: auto;
+    width: 21rem;
+    height: 21rem;
+    background-image: url("./Porta3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
