@@ -4,7 +4,7 @@
 
 .img-cont1{
     display: flex;
-    margin: auto;
+    margin: 1rem;    
     width: 21rem;
     height: 21rem;
     background-image: url("./Porta1.jpg");
@@ -14,7 +14,7 @@
 
 .img-cont2{
     display: flex;
-    margin: auto;
+    margin: 1rem; 
     width: 21rem;
     height: 21rem;
     background-image: url("./Porta2.jpg");
@@ -24,7 +24,7 @@
 
 .img-cont3{
     display: flex;
-    margin: auto;
+    margin: 1rem;     
     width: 21rem;
     height: 21rem;
     background-image: url("./Porta3.jpg");
