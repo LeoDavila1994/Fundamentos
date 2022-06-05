@@ -1,6 +1,6 @@
 @media (min-width:400px){
 
-    /* Section1 */
+    /* Section1 /*/
 
     html{
     box-sizing: border-box;
@@ -8,15 +8,7 @@
     
     *, *::before, *::after {
     box-sizing: inherit;
-    }
-    
-    body{
-    background-color: #020403;
-    font-family: 'Rubik', sans-serif;
-    margin:0px;
-    height: 100vh;
-    width: 100%;    
-    }
+    }    
     
     .font-color1{
     color: #FFFFFF;
@@ -905,4 +897,57 @@
         margin: 0 15rem;
     }
 
+    nav{        
+        height: 5rem;
+        width: 1200px;
+        position:fixed;
+        z-index: 99;
+        background-color:#020403;    
+        }    
+
+    .checkbtn{
+        display: none;
+        position: fixed;
+        left:calc(100% - 2.5rem);
+        line-height: 5rem;
+        margin-right: 2.5rem;
+        z-index: 4;
+    }
+
+    ul{
+        position: static;
+        width: 1200px;
+        height: 5rem;
+        background-color: transparent;
+        top: 0;
+        left:0;        
+        text-align: end;
+        transition: 0;
+        padding: 0;        
+        z-index: 98;
+             
+    }
+
+    nav ul li{
+        display: inline-block;
+        margin: 0 1rem;
+    }
+        
+    nav ul li a{
+        line-height: 5rem;
+        text-transform:uppercase;
+        font-weight: normal;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    li a:hover{
+        background-color: #ADADAD;
+        border-radius: 6px;
+        padding: .5rem 1rem;
+        transition: 0;      
+    } 
+    
+
 }
+
