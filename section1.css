@@ -16,6 +16,7 @@ body{
 
 .main0{
   max-width: 1200px;
+  min-width: 400px;
   margin: auto;
   background-color: #020403;
   overflow: hidden;  

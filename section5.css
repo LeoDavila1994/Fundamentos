@@ -4,30 +4,33 @@
 
 .img-cont1{
     display: flex;
-    margin: 1rem;    
     width: 21rem;
     height: 21rem;
     background-image: url("./Porta1.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    border:1rem solid #020403;     
 }
 
 .img-cont2{
     display: flex;
-    margin: 1rem; 
     width: 21rem;
     height: 21rem;
     background-image: url("./Porta2.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    border:1rem solid #020403;     
 }
 
 .img-cont3{
     display: flex;
-    margin: 1rem;     
     width: 21rem;
-    height: 21rem;
+    height: 21rem;;
     background-image: url("./Porta3.jpg");
     background-size: cover;
-    background-repeat: no-repeat;    
-}
+    background-repeat: no-repeat;
+    margin: auto;
+    border:1rem solid #020403;      
+} 

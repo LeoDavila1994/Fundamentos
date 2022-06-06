@@ -184,6 +184,12 @@
         position: relative;
         overflow: hidden;               
     }
+
+    .main-vector-s3{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    } 
     
     .vector-position{
         position: absolute;
@@ -267,23 +273,23 @@
     .img-cont1{
         display: flex;
         width: 21rem;
-        height: 21rem;;
+        height: 21rem;
         background-image: url("./Porta1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 1rem; 
-             
+        margin: auto;
+        border:1rem solid #020403;     
     }
     
     .img-cont2{
         display: flex;
         width: 21rem;
-        height: 21rem;;
+        height: 21rem;
         background-image: url("./Porta2.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 1rem; 
-               
+        margin: auto;
+        border:1rem solid #020403;     
     }
     
     .img-cont3{
@@ -293,9 +299,9 @@
         background-image: url("./Porta3.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 1rem; 
-              
-    }
+        margin: auto;
+        border:1rem solid #020403;      
+    } 
 
     /* Section6 */
 
@@ -311,13 +317,7 @@
         background-color:transparent;
         border: .125rem solid #FFFFFF;
     }
-  
-    .main-vector-s3{
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-    }   
-        
+
 }
 
 @media (min-width: 576px){
@@ -390,7 +390,7 @@
         width: 21rem;
         height: 21rem;
         background-image: url("./Porta1.jpg");
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         margin: auto;
         border:1rem solid #020403;     
@@ -401,7 +401,7 @@
         width: 21rem;
         height: 21rem;
         background-image: url("./Porta2.jpg");
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         margin: auto;
         border:1rem solid #020403;     
@@ -416,23 +416,7 @@
         background-repeat: no-repeat;
         margin: auto;
         border:1rem solid #020403;      
-    }
-    
-    .main-s2{
-        margin: 0 3rem;
-    }
-
-    .main-s3{
-        position: relative;
-        overflow: hidden;
-        margin: 0 3rem;        
-    }
-
-    .main-vector-s3{
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-    }
+    }   
 
     .main1{
         margin: auto;        
@@ -449,6 +433,12 @@
         position: relative;
         overflow: hidden;
         margin: 0 3rem;        
+    }
+
+    .main-vector-s3{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
     }
 
     .main-sec4{
