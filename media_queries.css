@@ -269,39 +269,16 @@
     .vector-position2{
         position: relative;    
     }
-    
-    .img-cont1{
-        display: flex;
-        width: 21rem;
-        height: 21rem;
-        background-image: url("./Porta1.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin: auto;
-        border:1rem solid #020403;     
+        
+    .porta-c{
+        width: 18rem;
+        height: 18rem;
+        margin: auto;        
     }
     
-    .img-cont2{
-        display: flex;
-        width: 21rem;
-        height: 21rem;
-        background-image: url("./Porta2.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin: auto;
-        border:1rem solid #020403;     
+    .porta-c img{
+        width: 100%;
     }
-    
-    .img-cont3{
-        display: flex;
-        width: 21rem;
-        height: 21rem;;
-        background-image: url("./Porta3.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin: auto;
-        border:1rem solid #020403;      
-    } 
 
     /* Section6 */
 
@@ -384,39 +361,6 @@
     .text-lft{
         text-align: start;
     }
-    
-    .img-cont1{
-        display: flex;
-        width: 21rem;
-        height: 21rem;
-        background-image: url("./Porta1.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin: auto;
-        border:1rem solid #020403;     
-    }
-    
-    .img-cont2{
-        display: flex;
-        width: 21rem;
-        height: 21rem;
-        background-image: url("./Porta2.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin: auto;
-        border:1rem solid #020403;     
-    }
-    
-    .img-cont3{
-        display: flex;
-        width: 21rem;
-        height: 21rem;;
-        background-image: url("./Porta3.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin: auto;
-        border:1rem solid #020403;      
-    }   
 
     .main1{
         margin: auto;        
@@ -638,34 +582,14 @@
         width: 100%;
     }
    
-    .img-cont1{
-        display: inline-block;
-        width: 13rem;
-        height: 13rem;
-        background-image: url("./Porta1.jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin: 1rem;    
+    .porta-c{
+        width: 14rem;
+        height: 14rem;
+        margin: auto;        
     }
     
-    .img-cont2{
-        display: inline-block;
-        width: 13rem;
-        height: 13rem;
-        background-image: url("./Porta2.jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin: 1rem;     
-    }
-    
-    .img-cont3{
-        display: inline-block;
-        width: 13rem;
-        height: 13rem;
-        background-image: url("./Porta3.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin: 1rem;     
+    .porta-c img{
+        width: 100%;
     }
 
 }
@@ -712,37 +636,7 @@
         border-radius: 46%;
         overflow: hidden;
         z-index: 3;        
-    }  
-
-    .img-cont1{
-        display: inline-block;
-        width: 15rem;
-        height: 15rem;
-        background-image: url("./Porta1.jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin: 1rem;    
-    }
-    
-    .img-cont2{
-        display: inline-block;
-        width: 15rem;
-        height: 15rem;
-        background-image: url("./Porta2.jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin: 1rem;     
-    }
-    
-    .img-cont3{
-        display: inline-block;
-        width: 15rem;
-        height: 15rem;
-        background-image: url("./Porta3.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin: 1rem;     
-    }
+    }   
 
     .main1{        
         position: relative;
@@ -835,36 +729,6 @@
         top: 5rem;
         left:0;
         overflow: hidden; 
-    }
-
-    .img-cont1{
-        display: inline-block;
-        width: 21rem;
-        height: 21rem;
-        background-image: url("./Porta1.jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin: 1rem;    
-    }
-    
-    .img-cont2{
-        display: inline-block;
-        width: 21rem;
-        height: 21rem;
-        background-image: url("./Porta2.jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin: 1rem;     
-    }
-    
-    .img-cont3{
-        display: inline-block;
-        width: 21rem;
-        height: 21rem;
-        background-image: url("./Porta3.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin: 1rem;     
     }
 
     .main1{
