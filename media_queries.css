@@ -68,7 +68,7 @@
         background-image: url("./Group\ 98.svg");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;  
+        background-position: center; 
       }
 
     nav{
@@ -602,7 +602,7 @@
 
 }
 
-@media (min-width: 1200px){   
+@media (min-width: 1200px){
 
     .margin-none{
         margin: 0;        
@@ -658,12 +658,12 @@
 
     ul{
         position: static;
-        width: 1200px;
+        width: 100vw;
         height: 5rem;
         background-color: transparent;
         top: 0;
         left:0;        
-        text-align: end;
+        text-align: center;
         transition: 0;
         padding: 0;        
         z-index: 98;             

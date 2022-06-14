@@ -14,9 +14,14 @@ body{
   width: 100%;    
 }
 
+.sections{
+  padding-top: 5rem;
+  
+}
+
 .main0{ 
-  margin: auto;
-  background-color: #020403;
+  width: 100%;
+  margin: auto;  
   overflow: hidden;  
 }
 
@@ -106,7 +111,7 @@ ul{
 
 nav ul li{
   display: block;
-  margin: 3.125rem 0;
+  margin: 2rem 0;
 }
 
 nav ul li a{
@@ -168,7 +173,7 @@ li a:hover{
   background-image: url("./Group\ 98.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;  
+  background-position: center; 
 }
 
 
